@@ -1,65 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Secure HR Consultancy</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Job Secure HR</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Job Secure Human Resource Consultancy L.L.C - S.P.C</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>ss
-        </div>
-    </header>
-
-    <section id="home">
-        <div class="container">
-            <h2>Welcome to Job Secure HR Consultancy</h2>
-            <p>We provide top-notch human resource consultancy services to connect businesses with the right talent.</p>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Job Secure HR Consultancy is based in Abu Dhabi, UAE. Our mission is to help companies grow by providing expert recruitment solutions and human resource consulting services.</p>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Recruitment Services</li>
-                <li>HR Consulting</li>
-                <li>Employee Training</li>
-                <li>Outsourcing Solutions</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Email: <a href="mailto:job.secureconsult@gmail.com">job.secureconsult@gmail.com</a></p>
-            <p>Phone: +971 505434397 | +977 9816681065</p>
-            <p>Address: Electra Street, Abu Dhabi, UAE</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Job Secure HR Consultancy. All rights reserved.</p>
-        </div>
-    </footer>
+  <h1>Welcome to Job Secure Human Resource Consultancy</h1>
+  <p>Contact us: +971 505434397 | +977 9816681065</p>
 </body>
 </html>
