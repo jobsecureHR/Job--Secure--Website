@@ -52,3 +52,67 @@ footer {
     background-color: #333;
     color: white;
 }
+body {
+    font-family: 'Arial', sans-serif; /* You can change this font to another one like 'Verdana', 'Roboto', etc. */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Change the header background color */
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Verdana', sans-serif; /* You can change this font */
+}
+
+h2 {
+    color: #4CAF50; /* Change the color of all headings */
+    font-family: 'Roboto', sans-serif; /* Change font for headings */
+}
+
+.about, .services, .contact-info, .vision, .team {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Change the footer background color */
+    color: white;
+}
+
+/* Add a background color for section titles */
+section h2 {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Hover effect on links */
+}
