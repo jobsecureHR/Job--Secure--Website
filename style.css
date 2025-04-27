@@ -1,220 +1,118 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  text-align: center;
-  padding: 50px;
-}
-h1 {
-  color: #007BFF;
-}
-body {
-    font-family: Arial, sans-serif;
+/* Reset default */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
     color: #333;
+    line-height: 1.6;
+    background-color: #f0f2f5;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
 }
 
-header h1 {
-    margin: 0;
+/* Navigation Bar */
+nav {
+    background-color: #003366; /* Dark blue */
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.about, .services, .contact-info {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h2 {
-    color: #4CAF50;
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+.nav-links {
+    list-style: none;
 }
 
-ul li {
-    margin: 10px 0;
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-}
-body {
-    font-family: 'Arial', sans-serif; /* You can change this font to another one like 'Verdana', 'Roboto', etc. */
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #333; /* Change the header background color */
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-
-header h1 {
-    margin: 0;
-    font-family: 'Verdana', sans-serif; /* You can change this font */
-}
-
-h2 {
-    color: #4CAF50; /* Change the color of all headings */
-    font-family: 'Roboto', sans-serif; /* Change font for headings */
-}
-
-.about, .services, .contact-info, .vision, .team {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 10px 0;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333; /* Change the footer background color */
-    color: white;
-}
-
-/* Add a background color for section titles */
-section h2 {
-    background-color: #4CAF50;
-    padding: 10px;
-    border-radius: 5px;
-    color: white;
-}
-
-a {
-    color: #4CAF50; /* Link color */
+.nav-links a {
+    color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
 }
 
-a:hover {
-    text-decoration: underline; /* Hover effect on links */
-}
-/* General Body Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+.nav-links a:hover {
+    color: #00bfff; /* Light blue hover */
 }
 
-/* Header Styles */
-header {
-    background-color: #4CAF50; /* Green background */
-    color: white;
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 40px;
+    color: white;
+    padding: 20px;
 }
 
-header .logo {
-    max-width: 150px; /* Set logo width */
-    height: auto;
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* Sections */
+section {
+    padding: 80px 0;
+}
+
+.about, .services, .contact {
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.about h2, .services h2, .contact h2 {
+    color: #003366;
+    font-size: 32px;
     margin-bottom: 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-}
-
-header p {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-/* Section Styles */
-section {
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-h2 {
-    color: #4CAF50; /* Green for section headers */
-    font-size: 28px;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-
-/* About, Vision, and Team Section */
-.about, .vision, .team {
-    background-color: #fff;
-}
-
 .services ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
+    margin-top: 20px;
 }
 
 .services ul li {
-    margin: 10px 0;
-    font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-/* Contact Information */
-.contact-info a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Styles */
+/* Footer */
 footer {
+    background-color: #003366;
+    color: #ffffff;
     text-align: center;
-    padding: 20px;
-    background-color: #333; /* Dark footer */
-    color: white;
-    font-size: 16px;
-}
-
-/* Image Styles */
-img.section-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-
-/* Make images responsive on small screens */
-@media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 28px;
-    }
-    
-    section {
-        margin: 10px;
-    }
+    padding: 20px 0;
 }
